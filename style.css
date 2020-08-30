@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    
+    float:left;
+    height:50px;
+    font-size:10px;
+    color:#261a0d;
+    padding: 2%;
+
+}
+#section2{
+    
+    float:right;
+    height:50px;
+    color:#130d06;
+    
+    
+
+}
+#clear-div{
+    clear:both;
+
+}
+
+
+#nav-menu{
+
+    width:650px;
+    height:40px;
+    margin:0 auto;
+    text-decoration-color: #b30047;
+    
+}
+#nav-menu ul{}
+
+#nav-menu ul li{
+    
+    list-style-type:none;
+    margin:10px;
+    float:left;
+    
+
+}
+#nav-menu ul li a{
+
+    text-decoration:none;
+    font-size:20px;
+    color:#0E1028;
+    cursor:pointer;
+}
+#nav-menu ul li a:hover{
+
+    text-decoration:underline;
+}
+#section3{
+
+    Color:#551743;
+    padding: 2%;
+}
+#section0{
+
+    background-color:#4E008E;
+    z-index:2;
+    position: relative;
+    margin-bottom: -20px;
+        
+
+}
+#section4{
+
+    height:250px ;
+    width: 90%;
+    background-color:#b300b3;
+    margin: auto;
+    z-index:0;
+    position: relative;
+    margin-top:-20px;
+
+}
+
+#section5{
+
+    height:300px ;
+    width: 100%;
+    background-color:#4E008E;
+    margin: auto;
+    z-index:2;
+    position: relative;
+    margin-top: -15px;
+
+}
+
+.profile-image{
+
+    width: 170px;
+    height: 90%;
+    border: 3px solid darkolivegreen;
+    border-radius: 50%;
+    float: left;
+    img:url("NH55.jpeg")
+}
+
+span{
+    color:rgb(82, 117, 29);
+    font-size:30px;
+}
